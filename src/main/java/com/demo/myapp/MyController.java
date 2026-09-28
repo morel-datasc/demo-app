@@ -8,7 +8,7 @@ public class MyController {
 
 	@RequestMapping("api/health")
 	public String sayHello() {
-		return "API Health is good";
+		return "API Health: Good";
 	}
 	
 	@RequestMapping("api/ping")
