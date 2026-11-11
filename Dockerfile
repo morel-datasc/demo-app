@@ -17,7 +17,7 @@ COPY src ./src
 RUN mvn clean package -DskipTests
 
 # Use an OpenJDK image to run the application
-FROM openjdk:17-jdk
+FROM eclipse-temurin:17-jdk
 
 
 # Set the working directory inside the container
